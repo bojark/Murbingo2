@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>Murbingo2</AssemblyName><Version>2.0.9</Version><ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>assets/app.ico</ApplicationIcon></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Murbingo.Core/Murbingo.Core.csproj"/><ProjectReference Include="../Murbingo.Physics/Murbingo.Physics.csproj"/><Content Include="config.json;locales/*.json;assets/*;examples/*"><CopyToOutputDirectory>Always</CopyToOutputDirectory><CopyToPublishDirectory>Always</CopyToPublishDirectory></Content><EmbeddedResource Include="locales/ru.json"/><Resource Include="assets/app.ico"/></ItemGroup>
+</Project>

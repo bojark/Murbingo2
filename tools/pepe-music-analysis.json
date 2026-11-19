@@ -1,0 +1,13 @@
+{
+  "sourceRecording": "2026-11-20 01-20-33.mp4",
+  "musicOnsetSeconds": 1.25,
+  "selectedStartSeconds": 25.154,
+  "selectedEndSeconds": 41.154,
+  "durationSeconds": 16,
+  "crossfadeSeconds": 0.04,
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 16,
+  "periodDetection": "Waveform and pitch-class recurrence; dominant musical period 16 seconds",
+  "seamMethod": "Cosine blend of the final 40 ms into the 40 ms before the selected start; total period unchanged"
+}

@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+.build/
+artifacts/
+**/__pycache__/
+*.py[cod]
+.vs/
+.idea/
+*.user
+*.suo
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

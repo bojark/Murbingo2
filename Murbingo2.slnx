@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Murbingo.App/Murbingo.App.csproj" />
+    <Project Path="src/Murbingo.Core/Murbingo.Core.csproj" />
+    <Project Path="src/Murbingo.Physics/Murbingo.Physics.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Murbingo.Tests/Murbingo.Tests.csproj" />
+  </Folder>
+</Solution>
